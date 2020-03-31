@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/gradient2"
+    tools:context=".BrowserActivity">
+
+    <ImageView
+        android:id="@+id/imgview_browser"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:padding="20dp"
+        android:src="@drawable/mint_browser" />
+
+    <EditText
+        android:id="@+id/buka_browser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Cari sesuatu ?" />
+
+    <Button
+        android:id="@+id/btn_browser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#5ca0d3"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:text="Buka Browser" />
+
+</LinearLayout>

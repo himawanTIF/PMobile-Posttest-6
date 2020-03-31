@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/gradient1"
+    tools:context=".MapsActivity">
+
+    <ImageView
+        android:id="@+id/imgview_maps"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:padding="20dp"
+        android:src="@drawable/maps" />
+
+    <EditText
+        android:id="@+id/cari_maps"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Cari Lokasi?"/>
+
+    <Button
+        android:id="@+id/btn_maps"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:text="Buka Maps"/>
+
+</LinearLayout>

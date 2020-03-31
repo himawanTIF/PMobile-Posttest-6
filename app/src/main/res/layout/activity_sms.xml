@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/gradient2"
+    tools:context=".SmsActivity">
+
+    <ImageView
+        android:id="@+id/imgview_pesan"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:src="@drawable/message_green" />
+
+    <EditText
+        android:id="@+id/smsNomor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Input Nomor"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/smsIsiPesan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Input Pesan"
+        android:padding="10dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_kirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="Kirim"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+</LinearLayout>

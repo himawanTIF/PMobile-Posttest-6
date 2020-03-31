@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/imp"
+        android:title="Implicit">
+        <menu>
+            <item
+                android:id="@+id/sms"
+                android:title="Pesan" />
+            <item
+                android:id="@+id/telp"
+                android:title="Panggilan" />
+            <item
+                android:id="@+id/browser"
+                android:title="Browser" />
+            <item
+                android:id="@+id/maps"
+                android:title="Google Maps" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/exp"
+        android:title="Explicit">
+        <menu>
+            <item
+                android:id="@+id/hitung"
+                android:title="Fungsi Hitung"
+                />
+        </menu>
+    </item>
+</menu>
